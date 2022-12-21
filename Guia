@@ -1,0 +1,14 @@
+primeiro configurar o driver do jdbc com o java no project structure > modules > dependencies
+criar a classe de modelo com os atributos
+criar username password dburl e a query
+criar a conexao com o banco usando a classe Connection > DriverManager > getConnection
+criar o package DAO
+
+criar o metodo save no dao:
+criar conexao com o banco
+criar um preparedstatement para executar uma query
+adicionar valores esperados pela query
+executar a query
+fechar a conexao
+
+
